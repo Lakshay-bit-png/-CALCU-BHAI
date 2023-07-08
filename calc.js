@@ -12,7 +12,7 @@
       
         loaderElement.classList.remove('.slide');
         loaderElement.style.top="-1000px";
-      }
+        console.log("1000");      }
     }
   });
   
