@@ -11,7 +11,7 @@ window.addEventListener('load', function() {
       if (percentComplete >= 80) {
         // Apply animation to loader element
         var loaderElement = document.getElementById('video-vanish');
-        loaderElement.classList.add('animation');
+        loaderElement.classList.add('.slide');
         
       }
     }
