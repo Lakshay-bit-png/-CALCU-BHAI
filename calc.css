@@ -63,15 +63,15 @@ animation-delay:0s ;}
 }
 
 /*-----------------------------------------------------*/
-#video-vanish{
+#video-vanish{animation:slide-up;
         position:relative;
+
                }
 @keyframes slide-up{
     0%{top:0px;}
     80%{opacity:0.5}
     100%{top:-1000px;}
     }
-.slide-animation{animation:slide-up;
-                animation-duration: 4s;}
+
 
 
