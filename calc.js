@@ -2,14 +2,6 @@ var animationDuration = 2;
 var loaderElement = document.getElementById('video-vanish');
 var animationInterval;
 
-window.addEventListener('load', function() {
-  // Website loaded
-  var completionMessage = document.createElement('div');
-  completionMessage.textContent = 'Website fully loaded!';
-  completionMessage.style.color = '#fff';
-  completionMessage.style.fontSize = '24px';
-  document.body.appendChild(completionMessage);
-});
 
 window.addEventListener('progress', function(event) {
   if (event.lengthComputable) {
