@@ -74,7 +74,7 @@ animation-delay:0s ;}
     100%{top:-1000px;}
     }
 .slide{animation:slide-up;
-        animation-duration:2s;}
+      }
 
 
 
