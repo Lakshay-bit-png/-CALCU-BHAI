@@ -68,12 +68,12 @@ animation-delay:0s ;}
         position:relative;
 
                }
-@keyframes slide-up{
+@keyframes slideup{
     0%{top:0px;}
     80%{opacity:0.5}
     100%{top:-1000px;}
     }
-.slide{animation:slide-up 2s linear;
+.slide{animation:slideup 2s linear;
         }
 
 
