@@ -1,6 +1,7 @@
 window.addEventListener('load', function() {
     var loaderElement = document.getElementById('video-vanish');
     loaderElement.style.top="-1000px";
+    console.log('hi');
   });
   
   
