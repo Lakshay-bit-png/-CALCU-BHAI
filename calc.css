@@ -64,7 +64,7 @@ animation-delay:0s ;}
 
 /*-----------------------------------------------------*/
 #video-vanish{
-   
+        
         position:relative;
 
                }
@@ -73,8 +73,8 @@ animation-delay:0s ;}
     80%{opacity:0.5}
     100%{top:-1000px;}
     }
-.slide{animation:slide-up;
-      }
+.slide{animation:slide-up 2s linear;
+        }
 
 
 
