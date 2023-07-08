@@ -8,7 +8,7 @@
       if (percentComplete >= 80 && percentComplete <= 100) {
 
         loaderElement.classList.add('.slide');
-      } else {
+      } else if(percentComplete == 100 ) {
       
         loaderElement.classList.remove('animation');
         loaderElement.style.top="-1000px";
