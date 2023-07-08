@@ -10,7 +10,7 @@
         loaderElement.classList.add('.slide');
       } else if(percentComplete == 100 ) {
       
-        loaderElement.classList.remove('animation');
+        loaderElement.classList.remove('.slide');
         loaderElement.style.top="-1000px";
       }
     }
