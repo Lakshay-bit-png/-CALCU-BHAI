@@ -63,7 +63,8 @@ animation-delay:0s ;}
 }
 
 /*-----------------------------------------------------*/
-#video-vanish{animation:slide-up;
+#video-vanish{animation:slide-up 2s linear;
+    animation-iteration-count: 1;
         position:relative;
 
                }
