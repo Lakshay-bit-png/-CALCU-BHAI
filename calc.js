@@ -7,7 +7,7 @@
   
       if (percentComplete >= 80 ) {
        
-        loaderElement.style.animation= 'slide-up';
+        loaderElement.classList.add('.slide');
         loaderElement.style.top="-1000px";
       }
     }
