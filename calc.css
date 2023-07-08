@@ -5,6 +5,97 @@ body{align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
+
+*{margin:0;
+padding:0;}
+
+body{overflow:hidden;}
+
+.container{display:flex;
+    justify-content: center;
+}
+.water{position:absolute;
+       bottom:0;
+       display:flex;
+      justify-content: center;
+      align-items: center;
+        background-color:rgb(255, 255, 255);
+     
+    height:400px;
+    width:400px;}
+.water:before, .water:after{
+    content:'';
+    position:absolute;
+
+
+    background-color: rgb(255, 255, 255);
+}
+.water:before{
+    content:'';
+    border-top-left-radius:35%;
+    border-top-right-radius:40%;
+    border-bottom-left-radius:55%;
+    border-bottom-right-radius:55%;
+
+    height:600%;
+    width:600%;
+    top:-300px;
+    background-color:rgb(77, 184, 255);
+    animation:anim2 8s;
+    animation-delay: 0s;
+
+}
+.water:after{background-color: rgb(6, 119, 239);
+    height:600%;
+    border-radius:45%;
+width:600%;
+top:-300px;
+animation:anim 16s ;
+animation-delay:0s ;}
+
+@keyframes anim{
+
+    0%{tranform:rotate(0deg);
+        top:300px;}
+    50%{}
+    100%{transform:rotate(360deg);
+    top:-300px;}
+}
+
+@keyframes anim2{
+    0%{tranform:rotate(0deg);
+        top:300px;}
+    50%{}
+    100%{transform:rotate(360deg);
+    top:-300px;}
+}
+
+/*-----------------------------------------------------*/
+#video-vanish{
+        position:relative;
+               }
+@keyframes slide-up{
+    0%{top:0px;}
+    80%{opacity:0.5}
+    100%{top:-1000px;}
+    }
+.slide-animation{animation:slide-up;
+                animation-duration: 4s;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*CALCULATOR KI BODY*/
 
 .bodycalc{height:500px;
