@@ -10,10 +10,6 @@
         var totalDuration = 2; // Total duration in seconds
         var animationDuration = ((percentComplete - 80) / 20) * totalDuration;
         loaderElement.style.animation= 'slide-up';
-        loaderElement.style.animationDuration = animationDuration + 's';
-      } else {
-        // Stop the animation if not in the desired range
-        loaderElement.style.animation = 'none';
       }
     }
   });
